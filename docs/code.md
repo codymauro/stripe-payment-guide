@@ -110,7 +110,7 @@ Your frontend is the part the user interacts with, AKA the website itself. Becau
 </body>
 </html>
 ```
-#### How It All Fits Together
+### How It All Fits Together
 The **frontend** is the website. It’s the page a customer would visit on your store, like a product page with a "Pay $10" button. 
 
 The **backend** is the behind-the-scenes code — your **Flask** or **Express** server that runs silently in the background, handling what happens when someone clicks the "Pay $10" button. 
