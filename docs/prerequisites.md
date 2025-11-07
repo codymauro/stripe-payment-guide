@@ -31,4 +31,4 @@ https://your-site.com/cancel
 ```
 Once the above tools are installed, you’re ready to build your local server and connect to Stripe Checkout in the next step.
   
-  > Note: **When Going Live**,, don’t confirm payments from the `/success` URL page. Use Stripe webhooks, which let Stripe automatically notify your backend when a payment succeeds. That way, your app can safely fulfill orders even if the customer never returns to your site. Though not mandatory, Stripe highly recommends them. [Learn more here](https://docs.stripe.com/webhooks).
+  > Note: **When Going Live**, don’t confirm payments from the `/success` URL page. Use Stripe webhooks, which let Stripe automatically notify your backend when a payment succeeds. That way, your app can safely fulfill orders even if the customer never returns to your site. Though not mandatory, Stripe highly recommends them. [Learn more here](https://docs.stripe.com/webhooks).
