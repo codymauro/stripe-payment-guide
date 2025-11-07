@@ -22,7 +22,7 @@ Terminal will also show you:
 
 ![Terminal showing Flask dev server at https://127.0.0.1:8443](images/server-running.png)
 
-Note: We’re using `ssl_context='adhoc'` so Flask serves a self-signed HTTPS page locally. This avoids mixed-content warnings and lets you rehearse a production-style redirect flow to your Success URL (that’s also why we use port 8443).
+> Note: We’re using `ssl_context='adhoc'` so Flask serves a self-signed HTTPS page locally. This avoids mixed-content warnings and lets you rehearse a production-style redirect flow to your Success URL (that’s also why we use port 8443).
 
 See Troubleshooting section should errors occur. Otherwise, **leave this terminal open during the test**.
 ### 7. Trigger a Checkout Session
@@ -63,9 +63,9 @@ Fill out the Stripe payment form as you would any other.
 - Provide a name and location.
    
 Then, submit payment.
+
+> Want to try other scenarios (insufficient funds, stolen card, wrong CVC, 3D Secure, etc.)? See Stripe’s full list of [test cards and decline cases](https://docs.stripe.com/testing).
  
 ![A Stripe checkout session with all relevant data fields filled out and ready to submit](images/stripe-checkout-session.png)
  
 If the test works, you will see confirmation responses in two separate locations. 
- 
-> Want to try other scenarios (insufficient funds, stolen card, wrong CVC, 3D Secure, etc.)? See Stripe’s full list of [test cards and decline cases](https://docs.stripe.com/testing).
