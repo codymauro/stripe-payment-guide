@@ -16,7 +16,6 @@ Follow these steps to set up and test a $10 one-time payment flow.
 ### 2. Install Dependencies (Stripe + Flask)
 Install the required packages using your terminal.
 
-- Use your computer’s terminal to install: 
 - **Stripe’s SDK**: `python3 -m pip install stripe flask`. 
 - **Python cryptography**: `python3 -m pip install cryptography`. This allows your script to generate https pages. 
  
