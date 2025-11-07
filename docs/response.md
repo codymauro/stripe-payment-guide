@@ -54,9 +54,9 @@ Watch for verification messages in both your browser and terminal. If you see:
 - `“Thanks for your payment!”` in the browser, or
 - `“Verified session…”` in the terminal
 
-			**Your local payment flow is working!**
+**Your local payment flow is working!** 
 
-Even better? Everything is happening safely in Stripe’s test mode, so no real money moves yet.
+Congratulations. Even better? Everything is happening safely in Stripe’s test mode, so no real money moves yet.
 ### Where to Check in Stripe
 If you want to confirm that your test payments actually reached Stripe’s system, you can view the activity in your Stripe Dashboard. Make sure the Dashboard is in **Sandbox** testing mode or you won’t see the test events. Then:
 
