@@ -5,10 +5,8 @@ hide:
 Before running the code, make sure you have these basics ready:  
   
 - **Testing tools**: A web browser to test your endpoints.
-- **Stripe account**: Sign up at [dashboard.stripe.com/register](https://dashboard.stripe.com/register).  
-    - Place your account in Sandbox mode for testing so that no real money moves.
-- **Code editor and terminal**: Use a code editor like [VS Code](https://vscode.dev/). Rich-text editors (e.g., TextEdit) can add hidden formatting that breaks HTML and Python.  
-    - You’ll run commands in your **system terminal**.
+- **Stripe account**: Sign up at [dashboard.stripe.com/register](https://dashboard.stripe.com/register). Place your account in Sandbox mode for testing so that no real money moves.
+- **Code editor and terminal**: Use a code editor like [VS Code](https://vscode.dev/). Rich-text editors (e.g., TextEdit) can add hidden formatting that breaks HTML and Python. You’ll run commands in your **system terminal**.
 - **Python installed**: Python 3.6+ (verify in terminal with `python3 --version`); or, [install Python](https://www.python.org/).
 - **Test card numbers:**   
     - For testing successful payments → 4242 4242 4242 4242  
