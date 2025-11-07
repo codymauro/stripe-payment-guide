@@ -1,0 +1,4 @@
+/* Hide the small site title at the top of the left nav */
+.md-nav__title {
+  display: none !important;
+}

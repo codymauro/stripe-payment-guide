@@ -1,0 +1,26 @@
+site_name: A Stripe Checkout Integration Quickstart for Beginners
+site_url: https://codymauro.github.io/stripe-payment-guide/
+
+theme:
+  name: material
+  features:
+    - navigation.footer
+    - navigation.instant
+    - navigation.tracking
+    - navigation.sections
+
+nav:
+  - Overview: index.md
+  - Prerequisites: prerequisites.md
+  - Local Server Prep: code.md
+  - Run a Checkout Test: integration.md
+  - Responses: response.md
+  - Troubleshoot: troubleshoot.md
+
+markdown_extensions:
+  - admonition
+  - toc:
+      permalink: true
+
+extra_css:
+  - styles/extra.css
