@@ -26,14 +26,11 @@ Terminal will also show you:
 
 See Troubleshooting section should errors occur. Otherwise, **leave this terminal open during the test**.
 ### 7. Trigger a Checkout Session
-Create a Checkout Session (the temporary Stripe “shopping cart”) directly from your frontend page. Just:
+Create a Checkout Session (the temporary Stripe “shopping cart”) directly from your frontend page. 
 
-**Visit your test HTML site:**
- 
-- Copy-paste the link from Step 6 into your browser: `https://127.0.0.1:8443` 
-- Your browser may warn you about an untrusted site; accept the warning and proceed. The site is running off your own server, so there shouldn’t be any malicious actors present.
-
-![Browsers may redirect to this private connection warning if you’re using https](images/private-connection-warning.png)
+- **Visit your test HTML site**
+	- Copy-paste the link from Step 6 into your browser: `https://127.0.0.1:8443` 
+	- Your browser may warn you about an untrusted site; accept the warning and proceed. The site is running off your own server, so there shouldn’t be any malicious actors present.
 
 **Click the link**
  
