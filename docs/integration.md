@@ -48,12 +48,12 @@ Create a Checkout Session (the temporary Stripe “shopping cart”) directly fr
 Fill out the Stripe payment form as you would any other.
  
 - Enter an email (fake works here).
-- Use **test card number:** 
-	- **For a successful payment**: `4242 4242 4242 4242` 
-	- **For a declined payment**: `4000 0000 0000 0002` 
-	- NOTE: This doesn’t trigger the Cancel URL; it responds with Stripe’s boilerplate error message. 
-- Any future expiration date and any 3-digit CVC will work. 
-- Provide a name and location. 
+- Use **test card number:**
+	- **For a successful payment**: `4242 4242 4242 4242`
+	- **For a declined payment**: `4000 0000 0000 0002`
+	- NOTE: This doesn’t trigger the Cancel URL; it responds with Stripe’s boilerplate error message.
+- Any future expiration date and any 3-digit CVC will work.
+- Provide a name and location.
    
 Then, submit payment.
  
