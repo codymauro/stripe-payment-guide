@@ -4,24 +4,24 @@ hide:
 ---
 Before running the code, make sure you have these basics ready:  
 **Testing tools**  
-    - A web browser to test your endpoints.  
+  - A web browser to test your endpoints.  
 **Stripe account:**  
-    - Sign up at [dashboard.stripe.com/register](https://dashboard.stripe.com/register).  
-    - Place your account in Sandbox mode for testing so that no real money moves.  
+  - Sign up at [dashboard.stripe.com/register](https://dashboard.stripe.com/register).  
+  - Place your account in Sandbox mode for testing so that no real money moves.  
 **Code editor and terminal:**  
-    - Use a code editor like [VS Code](https://vscode.dev/). Rich-text editors (e.g., TextEdit) can add hidden     formatting that breaks HTML and Python.  
-    - You’ll run commands in your **system terminal**.  
-**Python installed:**
-    - Python 3.6+ (check in terminal with `python3 --version`)
-    - Or [install Python](https://www.python.org/).
-**Test card numbers:**
-    - **For testing successful payments** → 4242 4242 4242 4242
-    - **For testing declined payments** → 4000 0000 0000 0002
-    - Use any future expiry date and any 3-digit CVC.
+  - Use a code editor like [VS Code](https://vscode.dev/). Rich-text editors (e.g., TextEdit) can add hidden     formatting that breaks HTML and Python.  
+  - You’ll run commands in your **system terminal**.  
+**Python installed:**   
+  - Python 3.6+ (check in terminal with `python3 --version`)  
+  - Or [install Python](https://www.python.org/).  
+**Test card numbers:**   
+  - **For testing successful payments** → 4242 4242 4242 4242  
+  - **For testing declined payments** → 4000 0000 0000 0002  
+  - Use any future expiry date and any 3-digit CVC.  
 ### Redirect Pages 
 After checkout, Stripe automatically redirects users to one of two pages:  
-    - **Success URL** — Payment approved. This page shows something like, “Thanks for your payment!” and optionally retrieves session info to confirm amount or status.   
-    - **Cancel URL** — Payment canceled or abandoned. This page might say, “Payment canceled. Try again?”  
+  - **Success URL** — Payment approved. This page shows something like, “Thanks for your payment!” and optionally retrieves session info to confirm amount or status.   
+  - **Cancel URL** — Payment canceled or abandoned. This page might say, “Payment canceled. Try again?”  
 For local testing, default to the following URLs:   
 ```
 https://127.0.0.1:8443/success
