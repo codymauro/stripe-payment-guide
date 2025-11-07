@@ -2,8 +2,7 @@
 hide:
   - toc
 ---
-Before running the code, make sure you have these basics ready:
-
+Before running the code, make sure you have these basics ready:  
 **Testing tools**  
     - A web browser to test your endpoints.  
 **Stripe account:**  
@@ -20,10 +19,10 @@ Before running the code, make sure you have these basics ready:
     - **For testing declined payments** → 4000 0000 0000 0002
     - Use any future expiry date and any 3-digit CVC.
 ### Redirect Pages 
-After checkout, Stripe automatically redirects users to one of two pages: 
-    - **Success URL** — Payment approved. This page shows something like, “Thanks for your payment!” and optionally retrieves session info to confirm amount or status. 
+After checkout, Stripe automatically redirects users to one of two pages:  
+    - **Success URL** — Payment approved. This page shows something like, “Thanks for your payment!” and optionally retrieves session info to confirm amount or status.   
     - **Cancel URL** — Payment canceled or abandoned. This page might say, “Payment canceled. Try again?”  
-For local testing, default to the following URLs: 
+For local testing, default to the following URLs:   
 ```
 https://127.0.0.1:8443/success
 https://127.0.0.1:8443/cancel
