@@ -3,7 +3,7 @@ hide:
   - toc
 ---
 Before running the code, make sure you have these basics ready:  
- 
+  
 **Testing tools**  
   - A web browser to test your endpoints.
   
