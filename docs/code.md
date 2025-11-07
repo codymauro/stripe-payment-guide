@@ -13,10 +13,11 @@ Follow these steps to set up and test a $10 one-time payment flow.
  
 > Keep these keys private. Test keys are fine to paste directly into your code while learning and testing. When you publish real code online, use environment variables instead of hardcoding keys to keep it secret.
 ### 2. Install Dependencies (Stripe + Flask)
-Install the required packages using your terminal. 
-- Use your computer’s terminal to install:   
-	- **Stripe’s SDK**: `python3 -m pip install stripe flask`.  
-	- **Python cryptography**: `python3 -m pip install cryptography`. This allows your script to generate https pages.   
+Install the required packages using your terminal.
+- Use your computer’s terminal to install:
+- **Stripe’s SDK**: `python3 -m pip install stripe flask`.
+- **Python cryptography**: `python3 -m pip install cryptography`. This allows your script to generate https pages. 
+ 
 ### 3. Create a project folder
 Create a new desktop folder called `stripe-test` to organize your files. Inside the test folder, create a second folder named `templates`.
 ### 4. Generate backend server code
