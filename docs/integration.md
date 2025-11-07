@@ -12,7 +12,7 @@ stripe-test/
 ### 6. Start a Local Server
 Open a terminal and navigate to your project with `cd ~/Desktop/stripe-test`. Then start the server.
 
-- Run: `python3 app.py`. If you see Running on `https://127.0.0.1:8443` or `https://localhost:8443` (localhost and   127.0.0.1 are interchangeable) then your local server is live. 
+- Run: `python3 app.py`. If the response says something like "Running on `https://127.0.0.1:8443`" or `https://localhost:8443` (localhost and 127.0.0.1 are interchangeable) then your local server is live. 
 
 Terminal will also show you: 
  
