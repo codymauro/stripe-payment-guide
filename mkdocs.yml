@@ -12,9 +12,9 @@ theme:
 nav:
   - Overview: index.md
   - Prerequisites: prerequisites.md
-  - Local Server Prep: code.md
-  - Run a Checkout Test: integration.md
-  - Responses: response.md
+  - Frontend and Backend Setup: code.md
+  - Make a $10 Payment: integration.md
+  - System Response: response.md
   - Troubleshoot: troubleshoot.md
 
 markdown_extensions:
