@@ -12,7 +12,8 @@ stripe-test/
 ### 6. Start a Local Server
 Open a terminal and navigate to your project with `cd ~/Desktop/stripe-test`. Then start the server.
 
-- Run: `python3 app.py`. If the response says something like "Running on `https://127.0.0.1:8443`" or `https://localhost:8443` (localhost and 127.0.0.1 are interchangeable) then your local server is live. 
+- Run: `python3 app.py`.
+- The response says something like "Running on `https://127.0.0.1:8443`" or `https://localhost:8443` (localhost and 127.0.0.1 are interchangeable) then your local server is live. 
 
 Terminal will also show you: 
  
@@ -36,7 +37,7 @@ Create a Checkout Session (the temporary Stripe “shopping cart”) directly fr
 
 **Click the link**
  
-- After clicking past the warning, your bare-bones test site should appear, looking like this: 
+After clicking past the warning, your bare-bones test site should appear, looking like this: 
 
 ![The frontend of our simple HTML site contains a single button to pay $10](images/front-end-html.png)
  
