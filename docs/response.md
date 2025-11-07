@@ -21,15 +21,20 @@ When a transaction succeeds, your terminal prints something like: `Verified sess
 
 This backend information comes from the `stripe.checkout.Session.retrieve(session_id)` call in your success route — something we baked into the code early on. This message confirms the amount and payment status retrieved securely from Stripe.
 
-If a transaction fails, your terminal displays an error message or status code, such as one of the following: 
-- `{“error”: “Invalid API Key provided”}`. 
-- `400` (bad request) 
-- `403` (forbidden).
+If a transaction fails, your terminal displays an error message or status code, such as one of the following:
+ 
+- `{“error”: “Invalid API Key provided”}`
+  
+- `400` (bad request)
+   
+- `403` (forbidden)
 
 These responses help you identify configuration issues, like an incorrect key, missing dependency, or request made to the wrong port. Check the troubleshooting page for more details.
 ### Review Cancel URL
 Stripe doesn’t have a built-in “cancel” button, and abandonment (like back or close) leaves the session open until it expires (24 hours by default), without an immediate redirect. To test Cancel URLs:
+ 
 - In your browser bar, type `https://127.0.0.1:8443/cancel`.
+   
 - You should see our placeholder cancel message: 
 
 ![The Cancel URL of a timed-out or bad transaction](images/cancel-url.png)
@@ -37,13 +42,21 @@ Stripe doesn’t have a built-in “cancel” button, and abandonment (like back
 If a customer actively cancels during Checkout, Stripe uses the cancel_url (when set). If they simply abandon the page, the Session remains open and later expires (default ~24 hours).
 ### Verify the Flow
 To be certain, run the full test from start to finish:
+ 
 - Restart your server (`Ctrl + C` → rerun `python3 app.py`).
+   
 - Visit your local site.
+   
 - Click Pay $10 and complete checkout with the test card.
+   
 	- **Success**: `4242 4242 4242 4242`
+    
 	- **Decline**: `4000 0000 0000 0002`
+    
 - Watch for verification messages in both your browser and terminal. If you see:
+   
 		- `“Thanks for your payment!”` in the browser
+   
 		- `“Verified session…”` in the terminal
 
 			**Your local payment flow is working!**
@@ -56,7 +69,7 @@ If you want to confirm that your test payments actually reached Stripe’s syste
 
 ![Stripe’s payment dashboard](images/today-earnings.png)
 
-> Fun Note: tinker with your HTML and app.py to adjust test payment amounts. Initiate as many tests as you want  to run up your fake test money. 
+> Fun Note: Tinker with your HTML and app.py to adjust test payment amounts. Initiate as many tests as you want  to run up your fake test money. 
 
 - Scroll further down the dashboard page, or navigate to **Payments** → **All Payments**, to see more useful charts, like Net Volume and Failed Payments. 
 
