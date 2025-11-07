@@ -18,6 +18,6 @@ Stripe Checkout is a hosted payment page that handles card details, validation, 
 ![Image of someone making a purchase through Stripe’s phone app](images/stripe-transaction.jpg)
 
 ### Additional Details
-This guide uses **Python** (Flask) for backend examples. If you prefer working in **JavaScript** (Node/Express), you can follow the companion guide here (coming soon).
+This guide uses **Python** (Flask) for backend examples. If you prefer working in **JavaScript** (Node/Express), you can [follow the companion guide here](https://codymauro.github.io/stripe-payment-java/)).
  
 All examples use Stripe’s Sandbox, or testing, mode. No real money changes hands. This keeps things safe while you learn and test. Check the Prerequisites to set up.
