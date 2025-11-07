@@ -28,17 +28,14 @@ See Troubleshooting section should errors occur. Otherwise, **leave this termina
 ### 7. Trigger a Checkout Session
 Create a Checkout Session (the temporary Stripe “shopping cart”) directly from your frontend page. 
 
-- **Visit your test HTML site**
-	- Copy-paste the link from Step 6 into your browser: `https://127.0.0.1:8443` 
+- **Visit your test HTML site**: Copy-paste the link from Step 6 into your browser: `https://127.0.0.1:8443` 
 	- Your browser may warn you about an untrusted site; accept the warning and proceed. The site is running off your own server, so there shouldn’t be any malicious actors present.
-
-**Click the link**
  
 After clicking past the warning, your bare-bones test site should appear, looking like this: 
 
 ![The frontend of our simple HTML site contains a single button to pay $10](images/front-end-html.png)
- 
-- Click the “Pay $10” button so that your frontend (index.html) sends a request to your backend (app.py). The backend then uses your secret key to ask Stripe’s API for a Checkout Session. A Stripe webpage loads. (Remember, this is a test; no money changes hands). 
+
+- **Click the Pay $10 link**: Now, your frontend (index.html) sends a request to your backend (app.py). The backend then uses your secret key to ask Stripe’s API for a Checkout Session. A Stripe webpage loads. (Remember, this is a test; no money changes hands). 
  
 > If your site renders as raw HTML, your text editor may have added unseen markup to the code. Create a new `index.html` in a plain-text editor like VC Code.
  
