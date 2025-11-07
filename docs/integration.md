@@ -9,7 +9,7 @@ stripe-test/
 └─ templates/
    └─ index.html
 ```
-### 6. Start You Local Server
+### 6. Start a Local Server
 Open a terminal and navigate to your project with `cd ~/Desktop/stripe-test`. Then start the server.
 
 - Run: `python3 app.py`. If you see Running on `https://127.0.0.1:8443` or `https://localhost:8443` (localhost and   127.0.0.1 are interchangeable) then your local server is live. 
@@ -32,7 +32,7 @@ Create a Checkout Session (the temporary Stripe “shopping cart”) directly fr
  
 - Copy-paste the link from Step 6 into your browser: `https://127.0.0.1:8443`
 
-- Your browser may warn you about an untrusted site; accept the warning and proceed. The site is running off your own server, so there shouldn’t be any malicious actors present. 
+- Your browser may warn you about an untrusted site; accept the warning and proceed. The site is running off your own server, so there shouldn’t be any malicious actors present.
 
 ![Browsers may redirect to this private connection warning if you’re using https](images/private-connection-warning.png)
 
