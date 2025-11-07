@@ -6,13 +6,12 @@ This guide helps business owners, new developers, designers, and writers get com
 
 **The goal:** Understand how a secure payment moves from button-click to confirmation, without getting lost in setup, full-stack complexity, or Stripe’s 100-plus-page documentation.  
 
-This is **not** a guide for setting up or building a business profile on Stripe.
 ### Stripe Checkout Overview
 Stripe Checkout is a hosted payment page that handles card details, validation, and security so you don’t have to manage sensitive data on your own servers. We’ll use Stripe libraries/SDKs for this. The **Software Development Kit (SDK)** gives us pre-written code that makes it easier to connect to Stripe’s API without starting from scratch. That way, we can:
 
-1. Create a checkout session
-2. Redirect users to pay
-3. Handle the response.
+1. Create a checkout session.  
+2. Redirect users to pay. 
+3. Handle the response. 
 
 **Total on-hands time**: 5-15 minutes for the basic flow, depending on your comfort with python and terminals.
 
