@@ -7,7 +7,7 @@ Follow these steps to set up and test a $10 one-time payment flow.
  
 - In the Stripe Dashboard → `Developers` → `API keys` →`Standard keys`.
 	- Copy your **Publishable key** (pk_test_...) and **Secret key** (sk_test_...).
-- Or, see your keys in the Recommendations box
+- Or, see your keys in the Recommendations box.
 - Slot these keys into their homes in the `app.py` code.
 
 ![Stripe’s testing dashboard shares APIs on the main page or via menu navigation](images/get-api.png)
