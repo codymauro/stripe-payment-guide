@@ -14,15 +14,14 @@ Follow these steps to set up and test a $10 one-time payment flow.
 > Keep these keys private. Test keys are fine to paste directly into your code while learning and testing. When you publish real code online, use environment variables instead of hardcoding keys to keep it secret.
 ### 2. Install Dependencies (Stripe + Flask)
 Install the required packages using your terminal. 
-- Use your computer’s terminal to install: 
-	- **Stripe’s SDK**: `python3 -m pip install stripe flask`.
-	- **Python cryptography**: `python3 -m pip install cryptography`. This allows your script to generate https pages. 
+- Use your computer’s terminal to install:   
+	- **Stripe’s SDK**: `python3 -m pip install stripe flask`.  
+	- **Python cryptography**: `python3 -m pip install cryptography`. This allows your script to generate https pages.   
 ### 3. Create a project folder
 Create a new desktop folder called `stripe-test` to organize your files. Inside the test folder, create a second folder named `templates`.
 ### 4. Generate backend server code
-This backend code runs your local server. It listens for requests from your browser (frontend), connects to Stripe’s API, and returns a checkout link.
-- Open [VS Code](https://vscode.dev/) and save the following code as `app.py` in your `stripe-test` folder.
-- 
+This backend code runs your local server. It listens for requests from your browser (frontend), connects to Stripe’s API, and returns a checkout link.  
+	- Open [VS Code](https://vscode.dev/) and save the following code as `app.py` in your `stripe-test` folder. 
 **Python (Flask):**
 ```
 import stripe
@@ -81,8 +80,8 @@ if __name__ == "__main__":
 ```
 Remember to replace the in-line placeholder API keys with those you obtained in Step 1. If you have specific **Success** or **Cancel URLs** you’d like to redirect to, substitute them for the current `127.0.0.1:8443` placeholders.
 ### 5. Generate frontend HTML
-Your frontend is the part the user interacts with, AKA the website itself. Because we’re running a test, we’re creating a simple, stand-in HTML site with a "Pay $10" button. 
-- Open [VS Code](https://vscode.dev/) and create a new document titled `index.html` inside your `templates` folder. 
+Your frontend is the part the user interacts with, AKA the website itself. Because we’re running a test, we’re creating a simple, stand-in HTML site with a "Pay $10" button.  
+- Open [VS Code](https://vscode.dev/) and create a new document titled `index.html` inside your `templates` folder.
 - Paste the following HTML into the VS Code interface:
 ```
 <!DOCTYPE html>
