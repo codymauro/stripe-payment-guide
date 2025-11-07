@@ -44,20 +44,15 @@ If a customer actively cancels during Checkout, Stripe uses the cancel_url (when
 To be certain, run the full test from start to finish:
  
 - Restart your server (`Ctrl + C` → rerun `python3 app.py`).
-   
 - Visit your local site.
-   
 - Click Pay $10 and complete checkout with the test card.
-   
-	- **Success**: `4242 4242 4242 4242`
-    
-	- **Decline**: `4000 0000 0000 0002`
-    
-- Watch for verification messages in both your browser and terminal. If you see:
-   
-		- `“Thanks for your payment!”` in the browser
-   
-		- `“Verified session…”` in the terminal
+  - **Success**: `4242 4242 4242 4242`
+  - **Decline**: `4000 0000 0000 0002`
+
+Watch for verification messages in both your browser and terminal. If you see:
+
+- `“Thanks for your payment!”` in the browser, or
+- `“Verified session…”` in the terminal
 
 			**Your local payment flow is working!**
 
