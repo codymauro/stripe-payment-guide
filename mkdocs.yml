@@ -14,8 +14,8 @@ nav:
   - Prerequisites: prerequisites.md
   - Frontend and Backend Setup: code.md
   - Make a $10 Payment: integration.md
-  - System Response: response.md
-  - Troubleshoot: troubleshoot.md
+  - System Responses: response.md
+  - Troubleshooting: troubleshoot.md
 
 markdown_extensions:
   - admonition
