@@ -28,7 +28,7 @@ If a transaction fails, your terminal displays an error message or status code, 
 - `400` (bad request)
    
 - `403` (forbidden)
-
+ 
 These responses help you identify configuration issues, like an incorrect key, missing dependency, or request made to the wrong port. Check the troubleshooting page for more details.
 ### Review Cancel URL
 Stripe doesn’t have a built-in “cancel” button, and abandonment (like back or close) leaves the session open until it expires (24 hours by default), without an immediate redirect. To test Cancel URLs:
