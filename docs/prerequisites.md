@@ -48,5 +48,4 @@ Once the above tools are installed, you’re ready to build your local server an
  
 When you publish your site, don’t confirm payments from the `/success` URL page. Use Stripe webhooks, which let Stripe automatically notify your backend when a payment succeeds, so your app can safely fulfill orders even if the customer never returns to your site.
 
-Though not mandatory, Stripe highly recommends them. [Learn more here](https://docs.stripe.com/webhooks). 
-
+Though not mandatory, Stripe highly recommends them. [Learn more here](https://docs.stripe.com/webhooks).
